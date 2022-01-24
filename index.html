@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Realtime font manipulator</title>
+        <link rel="icon" href="Font icon.png">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body background="Background.png">
+        <center>
+            <div class="btn-success header">
+                <h1 id="main_header">Font manipulator</h1>
+                <div class="btn-warning" id="noter">
+                    <b style="color: blue;">Note:-</b> Get your left and right wrists closer to each other to reduce the font size and to increase the font size, get your left and right wrists farther from each other.
+                    <div class="btn-danger" id="font_size_div">
+                        The Font Size is...
+                        <br>
+                        <span id="result_tag"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="footer"><b>Made by Vihaan</b></div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
